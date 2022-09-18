@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:image_restoration/screens/home_page.dart';
+import 'screens/Upload_Page2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,8 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      initialRoute: HomePage.name,
-      routes: {HomePage.name: (context) => HomePage()},
+      initialRoute: HomePage.name,home: UploadPage2(),
     );
   }
 }
